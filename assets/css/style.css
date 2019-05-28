@@ -136,8 +136,30 @@ a:active {
 
 /* Responsive Styling Guides Begin Here */
 
+
 @media screen and (max-width: 980px) {
    
+    .headContainer {
+        background-color: #ffffff;
+        padding-top: 30px;
+        width: 100%;
+        margin: auto; 
+        overflow: hidden;
+    }
+    .mainContent {
+        width: 680px;
+        margin: 0 10px 0 10px;
+        padding: 20px;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+    .line {
+        width: 680px;
+        border-bottom: 1px solid #777777;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .headContainer {
         background-color: #ffffff;
         padding-top: 30px;
@@ -159,15 +181,46 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: yellow; 
-    }
+    
+    * {
+        box-sizing: border-box;
+      }
+        
+    
     .mainContent {
-        width: 920px;
-        margin: auto;
+        width: 100%;
+        margin: 20px;
         padding: 20px;
         background-color: #ffffff;
         overflow: hidden;
+    }
+    .line {
+        width: 100%;
+        border-bottom: 1px solid #777777;
+    }
+
+    .galleryBox {
+        width: 41%;
+        height: auto;
+        margin: 0 40px 40px 0;
+        float: left;
+        position: relative; 
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+      }
+    .galleryLabel {
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px 0 15px 0;
+        position: absolute;
+        bottom: 20px;
+        z-index: 10;
+    
     }
 }
 
@@ -182,4 +235,4 @@ a:active {
         background-color: #ffffff;
         overflow: hidden;
     }
-}
+} 
