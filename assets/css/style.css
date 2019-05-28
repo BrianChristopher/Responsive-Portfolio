@@ -106,7 +106,9 @@ a:active {
 }
 
 /* Porfolio Page */
+
 /* Gallery Boxes */
+
 .galleryBox {
     width: 300px;
     height: 200px;
@@ -115,6 +117,7 @@ a:active {
     float: left;
     position: relative;
 }
+
 .galleryLabel {
     width: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -125,25 +128,22 @@ a:active {
     position: absolute;
     bottom: 20px;
     z-index: 10;
-
 }
 
 /* Form Styling */
+
 .formField {
     width: 100%;
 }
 
-
 /* Responsive Styling Guides Begin Here */
 
-
 @media screen and (max-width: 980px) {
-   
     .headContainer {
         background-color: #ffffff;
         padding-top: 30px;
         width: 100%;
-        margin: auto; 
+        margin: auto;
         overflow: hidden;
     }
     .mainContent {
@@ -181,14 +181,11 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
-    
     * {
         box-sizing: border-box;
-      }
-        
-    
+    }
     .mainContent {
-        width: 100%;
+        width: 94%;
         margin: 20px;
         padding: 20px;
         background-color: #ffffff;
@@ -198,18 +195,17 @@ a:active {
         width: 100%;
         border-bottom: 1px solid #777777;
     }
-
     .galleryBox {
-        width: 41%;
+        width: 43%;
         height: auto;
         margin: 0 40px 40px 0;
         float: left;
-        position: relative; 
+        position: relative;
     }
     .responsive {
         width: 100%;
         height: auto;
-      }
+    }
     .galleryLabel {
         width: 100%;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -220,19 +216,69 @@ a:active {
         position: absolute;
         bottom: 20px;
         z-index: 10;
-    
     }
+
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: blue; 
+    * {
+        box-sizing: border-box;
+    }
+    .headContainer {
+        padding-top: 0px;
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        float: none;
+        position: static;
+    }
+    .navBar {
+        float: none;
+        height: 15px;
+        padding: 5px;
+    }
+    .navItem {
+        float: left;
+        margin: 10px;
+        padding-top: 5px;
     }
     .mainContent {
-        width: 920px;
-        margin: auto;
+        width: 94%;
+        margin: 20px;
         padding: 20px;
         background-color: #ffffff;
         overflow: hidden;
     }
-} 
+    .line {
+        width: 100%;
+        border-bottom: 1px solid #777777;
+    }
+    .galleryBox {
+        width: 100%;
+        height: auto;
+        margin: 0 40px 40px 0;
+        float: left;
+        position: relative;
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    
+    #bioPic {
+        width: 100%;
+        height: auto;
+    }
+    .galleryLabel {
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px 0 15px 0;
+        position: absolute;
+        bottom: 20px;
+        z-index: 10;
+    }
+}
