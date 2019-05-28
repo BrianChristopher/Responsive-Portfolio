@@ -131,3 +131,55 @@ a:active {
 /* Form Styling */
 .formField {
     width: 100%;
+}
+
+
+/* Responsive Styling Guides Begin Here */
+
+@media screen and (max-width: 980px) {
+   
+    .headContainer {
+        background-color: #ffffff;
+        padding-top: 30px;
+        width: 100%;
+        /* margin: auto; */
+        overflow: hidden;
+    }
+    .mainContent {
+        width: 680px;
+        margin: 0 10px 0 10px;
+        padding: 20px;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+    .line {
+        width: 680px;
+        border-bottom: 1px solid #777777;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: yellow; 
+    }
+    .mainContent {
+        width: 920px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: blue; 
+    }
+    .mainContent {
+        width: 920px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+}
